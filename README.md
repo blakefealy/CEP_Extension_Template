@@ -23,18 +23,19 @@ Before building your own extension, make the following adjustments:
           - <DispatchInfoList> → <Extension Id> — Must match your updated extension ID
           - <UI> → <Menu> — Display name in the Adobe host app UI
           - <Resources> — If you rename your JSX runner file, make sure to update its path here too
+          
 ## ✨ Optional Enhancements
 To customize your UI and streamline development, consider adding the following:
 1. Font Awesome
-    You can include Font Awesome icons by adding the CDN to your index.html <head> section:
-    ```<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">```
-    This allows you to use icons like:
-    ```<i class="fas fa-play"></i>```
-2. Custom Fonts
+   You can include Font Awesome icons by adding the CDN to your index.html <head> section:
+   ```<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">```
+   This allows you to use icons like:
+   ```<i class="fas fa-play"></i>```
+3. Custom Fonts
     Use Google Fonts or other font services for improved typography. Example:
-    ```<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">```
-3. CSS Frameworks (Optional)
-    Lightweight CSS frameworks can help with layout and style. Consider using:
-        Milligram – minimalist and easy to override
-        Pico.css – great for clean UI
-        Bootstrap – if you want more utility and components (larger file size)
+   ```<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">```
+4. CSS Frameworks (Optional)
+   Lightweight CSS frameworks can help with layout and style. Consider using:
+       Milligram – minimalist and easy to override
+       Pico.css – great for clean UI
+       Bootstrap – if you want more utility and components (larger file size)
