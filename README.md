@@ -2,7 +2,7 @@
 
 This project is a starter template for Adobe CEP (Common Extensibility Platform) extensions, based on NT Production’s Extension Testing Template. It provides a basic file structure and configuration to help you quickly get started building your own extension.
 
-All folder structures and configurations mirror the original NT Production setup for ease of compatibility and testing.
+All folder structures and configurations mirror the original NTProductions setup for ease of compatibility and testing.
 
 ## 🔧 Getting Started
 
